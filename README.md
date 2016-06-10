@@ -17,8 +17,8 @@ This is a quick and dirty demo to get you started with counting (facets) with *D
 
 #####Examples Queries:
 
-```SELECT * FROM dsecount.accounts WHERE solr_query='{"q":"*:*", "facet":{"query":"pod_id:*"}}';
-```
+`SELECT * FROM dsecount.accounts WHERE solr_query='{"q":"*:*", "facet":{"query":"pod_id:*"}}';`
+
 
 Let's break it down:
 `"q":"*:*"` - This means "Select everything from every column"
