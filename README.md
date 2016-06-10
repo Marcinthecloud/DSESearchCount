@@ -24,7 +24,7 @@ Let's break it down:
 
 `"q":"*:*"` - This means "Select everything from every column"
 
-`"facet":{"query":"pod_id:*"}` This means "I want to count all the times pod_id occurs in 'q'""
+`"facet":{"query":"pod_id:*"}` This means "I want to count all the times pod_id occurs in my 'q'
 
 Output looks like:
 `{"pod_id:*":6}`
