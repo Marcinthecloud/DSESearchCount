@@ -33,7 +33,7 @@ We can also get some other cool logic
 
 `SELECT * FROM dsecount.accounts WHERE solr_query='{"q":"pod_id:*", "facet":{"field":"key"}}';`
 
-This is asking: "For all of my keys, how many times does pod_id X occur?"
+This is asking: "How many times does pod_id X occur in each key?" - essentially a 'GROUP BY'
 
 The output looks like:
 `{"key":{"1":1,"2":1,"3":1,"4":1,"5":1,"6":1}}`
