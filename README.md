@@ -12,7 +12,7 @@ This is a quick and dirty demo to get you started with counting (facets) with *D
   * ```for tarball installs: bin/dse cassandra -s```
   * ```for package installs: set SOLR=1 in the /etc/default/dse file and run: service dse start```
 2. Run ```easybutton.sh```
-  * This will create the CQL schemas and upload the propser DSE Search files
+  * This will create the CQL schemas and upload the proper DSE Search files
 3. Go wild!
 
 #####Examples Queries:
