@@ -22,6 +22,7 @@ This is a quick and dirty demo to get you started with counting (facets) with *D
 
 Let's break it down:
 `"q":"*:*"` - This means "Select everything from every column"
+
 `"facet":{"query":"pod_id:*"}` This means "I want to count all the times pod_id occurs in 'q'""
 
 Output looks like:
