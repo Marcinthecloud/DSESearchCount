@@ -10,7 +10,7 @@ This is a quick and dirty demo to get you started with counting (facets) with *D
 #####How-to:
 1. Start DataStax Enterprise in search mode
   * ```for tarball installs: bin/dse cassandra -s```
-  * ```for package installs: set SOLR=1 in the dse.default file and run: service dse start```
+  * ```for package installs: set SOLR=1 in the /etc/default/dse file and run: service dse start```
 2. Run ```easybutton.sh```
   * This will create the CQL schemas and upload the propser DSE Search files
 3. Go wild!
